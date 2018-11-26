@@ -1,0 +1,20 @@
+{
+  "name": "jmckay56/cuetimes",
+  "description": "Overall times in line",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "jeremy mckay",
+      "email": "jeremymckay@jeremymckay.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "7.4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CueTimes\\": "./src"
+    }
+  }
+}
